@@ -1,0 +1,39 @@
+{
+  "name": "@wessberg/filesaver",
+  "version": "1.0.0",
+  "description": "A Promise-based class that can save/remove files to/from disk and make folders recursively.",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/es2015/index.js",
+  "browser": "./dist/es2015/index.js",
+  "types": "./dist/es2015/index.d.ts",
+  "typings": "./dist/es2015/index.d.ts",
+  "scripts": {
+    "clean:compiled": "rm -r -f compiled",
+    "clean:dist": "rm -r -f dist",
+    "clean": "npm run clean:compiled & npm run clean:dist",
+    "mkdir": "mkdir -p dist/cjs/interface && mkdir -p dist/es2015/interface",
+    "build:pre": "npm run clean && npm run mkdir",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs -p tsconfig.dist.json",
+    "build:es2015": "tsc --module es2015 --outDir dist/es2015 -p tsconfig.dist.json",
+    "build": "npm run build:pre && npm run build:cjs && npm run build:es2015"
+  },
+  "keywords": [
+    "file",
+    "save",
+    "promise",
+    "fs",
+    "node",
+    "saving",
+    "io",
+    "disk"
+  ],
+  "author": "Frederik Wessberg",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^7.0.18",
+    "typescript": "^2.3.4"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  }
+}
