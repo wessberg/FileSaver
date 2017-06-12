@@ -4,6 +4,10 @@
 ## Installation
 Simply do: `npm install @wessberg/filesaver`.
 
+## DISCLAIMER
+
+It is still very early days for this package. The API may change. Use with caution.
+
 ## Usage
 ```typescript
 const fileSaver = new FileSaver();
@@ -16,6 +20,10 @@ await fileSaver.makeDirectory("/foo/bar/baz");
 ```
 
 ## Changelog:
+
+**v1.0.1**:
+
+- Added a disclaimer to the README.
 
 **v1.0.0**:
 
