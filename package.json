@@ -1,6 +1,6 @@
 {
   "name": "@wessberg/filesaver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Promise-based class that can save/remove files to/from disk and make folders recursively.",
   "main": "./dist/cjs/index.js",
   "module": "./dist/es2015/index.js",
