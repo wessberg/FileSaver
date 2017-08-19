@@ -1,2 +1,2 @@
-export {FileSaver} from './FileSaver';
-export {IFileSaver} from './interface/IFileSaver';
+export {FileSaver} from "./file-saver";
+export {IFileSaver} from "./i-file-saver";
