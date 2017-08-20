@@ -1,3 +1,12 @@
+<a name="1.0.3"></a>
+## 1.0.3 (2017-08-20)
+
+* 1.0.3 ([2ec29eb](https://github.com/wessberg/filesaver/commit/2ec29eb))
+* Bumped version ([df49917](https://github.com/wessberg/filesaver/commit/df49917))
+* Updated dependencies ([69fa33b](https://github.com/wessberg/filesaver/commit/69fa33b))
+
+
+
 <a name="1.0.2"></a>
 ## 1.0.2 (2017-08-19)
 
