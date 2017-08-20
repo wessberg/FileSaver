@@ -43,10 +43,10 @@
 	"devDependencies": {
 		"@types/node": "^8.0.24",
 		"@wessberg/ts-config": "0.0.23",
-		"tslint": "latest",
-		"typescript": "latest",
+		"conventional-changelog-cli": "latest",
 		"husky": "latest",
-		"conventional-changelog-cli": "latest"
+		"tslint": "latest",
+		"typescript": "^2.5.1"
 	},
 	"dependencies": {
 		"@types/mkdirp": "^0.5.0",
