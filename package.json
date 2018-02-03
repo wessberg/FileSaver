@@ -1,6 +1,6 @@
 {
 	"name": "@wessberg/filesaver",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "A Promise-based class that can save/remove files to/from disk and make folders recursively.",
 	"scripts": {
 		"changelog:generate": "conventional-changelog --outfile CHANGELOG.md --release-count 0",
