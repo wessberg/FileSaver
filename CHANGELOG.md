@@ -1,5 +1,15 @@
+<a name="1.0.5"></a>
+## <small>1.0.5 (2018-02-03)</small>
+
+* 1.0.5 ([25cce1a](https://github.com/wessberg/filesaver/commit/25cce1a))
+* Bumped deps ([1d67767](https://github.com/wessberg/filesaver/commit/1d67767))
+* Bumped version ([867d120](https://github.com/wessberg/filesaver/commit/867d120))
+* Removed package-lock ([eaff27b](https://github.com/wessberg/filesaver/commit/eaff27b))
+
+
+
 <a name="1.0.3"></a>
-## 1.0.3 (2017-08-20)
+## <small>1.0.3 (2017-08-20)</small>
 
 * 1.0.3 ([2ec29eb](https://github.com/wessberg/filesaver/commit/2ec29eb))
 * Bumped version ([df49917](https://github.com/wessberg/filesaver/commit/df49917))
@@ -8,7 +18,7 @@
 
 
 <a name="1.0.2"></a>
-## 1.0.2 (2017-08-19)
+## <small>1.0.2 (2017-08-19)</small>
 
 * 1.0.2 ([da905d1](https://github.com/wessberg/filesaver/commit/da905d1))
 * Directories will now be generated if required when performing save operations. Linting and refactori ([c2f5718](https://github.com/wessberg/filesaver/commit/c2f5718))
@@ -18,7 +28,7 @@
 
 
 <a name="1.0.1"></a>
-## 1.0.1 (2017-06-12)
+## <small>1.0.1 (2017-06-12)</small>
 
 * 1.0.1 ([be2cc9f](https://github.com/wessberg/filesaver/commit/be2cc9f))
 * Added a disclaimer to the README. ([dc47ae8](https://github.com/wessberg/filesaver/commit/dc47ae8))
