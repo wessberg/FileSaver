@@ -1,3 +1,12 @@
+<a name="1.0.6"></a>
+## <small>1.0.6 (2018-03-31)</small>
+
+* 1.0.6 ([7234967](https://github.com/wessberg/filesaver/commit/7234967))
+* Bumped deps ([f7649ae](https://github.com/wessberg/filesaver/commit/f7649ae))
+* Bumped version ([b643a8e](https://github.com/wessberg/filesaver/commit/b643a8e))
+
+
+
 <a name="1.0.5"></a>
 ## <small>1.0.5 (2018-02-03)</small>
 
