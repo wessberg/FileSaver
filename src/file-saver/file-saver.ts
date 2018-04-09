@@ -1,7 +1,7 @@
 import {writeFile, writeFileSync} from "fs";
 import * as mkdirp from "mkdirp";
 import {dirname} from "path";
-import rimraf from "rimraf";
+import * as rimraf from "rimraf";
 import {IFileSaver} from "./i-file-saver";
 
 /**
