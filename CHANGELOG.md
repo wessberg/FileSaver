@@ -1,3 +1,12 @@
+<a name="1.0.8"></a>
+## <small>1.0.8 (2018-04-09)</small>
+
+* 1.0.8 ([b079235](https://github.com/wessberg/filesaver/commit/b079235))
+* Bumped version ([4c99b19](https://github.com/wessberg/filesaver/commit/4c99b19))
+* Fixed import ([0f88ceb](https://github.com/wessberg/filesaver/commit/0f88ceb))
+
+
+
 <a name="1.0.7"></a>
 ## <small>1.0.7 (2018-04-09)</small>
 
