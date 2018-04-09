@@ -1,7 +1,8 @@
-import {unlink, unlinkSync, writeFile, writeFileSync} from "fs";
-import {IFileSaver} from "./i-file-saver";
+import {writeFile, writeFileSync} from "fs";
 import * as mkdirp from "mkdirp";
 import {dirname} from "path";
+import rimraf from "rimraf";
+import {IFileSaver} from "./i-file-saver";
 
 /**
  * A Promise-based class that can save/remove files to/from disk and make folders recursively.
@@ -13,7 +14,7 @@ export class FileSaver implements IFileSaver {
 	 * @param {string} path
 	 * @param {string | Buffer} contents
 	 */
-	public saveSync (path: string, contents: string|Buffer): void {
+	public saveSync (path: string, contents: string | Buffer): void {
 		this.makeDirectorySync(dirname(path));
 		writeFileSync(path, contents);
 	}
@@ -25,11 +26,12 @@ export class FileSaver implements IFileSaver {
 	 */
 	public async remove (path: string): Promise<void> {
 		return new Promise<void>((resolve, reject) => {
-			unlink(path, err => {
+			rimraf(path, err => {
 				if (err != null) reject(err);
 				resolve();
 			});
 		});
+
 	}
 
 	/**
@@ -37,7 +39,7 @@ export class FileSaver implements IFileSaver {
 	 * @param {string} path
 	 */
 	public removeSync (path: string): void {
-		unlinkSync(path);
+		rimraf.sync(path);
 	}
 
 	/**
@@ -54,7 +56,7 @@ export class FileSaver implements IFileSaver {
 	 * @param {string | Buffer} contents
 	 * @returns {Promise<void>}
 	 */
-	public async save (path: string, contents: string|Buffer): Promise<void> {
+	public async save (path: string, contents: string | Buffer): Promise<void> {
 		return new Promise<void>(async (resolve, reject) => {
 			await this.makeDirectory(dirname(path));
 			writeFile(path, contents, err => {
