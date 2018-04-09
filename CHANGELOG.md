@@ -1,3 +1,12 @@
+<a name="1.0.7"></a>
+## <small>1.0.7 (2018-04-09)</small>
+
+* 1.0.7 ([630dc19](https://github.com/wessberg/filesaver/commit/630dc19))
+* Bumped deps. Began depending on rimraf ([6cf805a](https://github.com/wessberg/filesaver/commit/6cf805a))
+* Bumped version ([f7f897e](https://github.com/wessberg/filesaver/commit/f7f897e))
+
+
+
 <a name="1.0.6"></a>
 ## <small>1.0.6 (2018-03-31)</small>
 
