@@ -38,8 +38,8 @@ export class FileSaver implements IFileSaver {
 	/**
 	 * Creates a directory on disk synchronously
 	 */
-	makeDirectorySync(path: string): void {
-		mkdirp.sync(path);
+	makeDirectorySync(path: string): string {
+		return mkdirp.sync(path);
 	}
 
 	/**
@@ -58,12 +58,7 @@ export class FileSaver implements IFileSaver {
 	/**
 	 * Creates a directory on disk asynchronously
 	 */
-	async makeDirectory(path: string): Promise<void> {
-		return new Promise<void>((resolve, reject) => {
-			mkdirp(path, (err: Error) => {
-				if (err != null) reject(err);
-				else resolve();
-			});
-		});
+	async makeDirectory(path: string): Promise<string> {
+		return mkdirp(path);
 	}
 }

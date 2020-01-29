@@ -3,7 +3,6 @@ dependencies:
   rimraf: 3.0.1
   tslib: 1.10.0
 devDependencies:
-  "@types/mkdirp": 0.5.2
   "@types/node": 13.5.1
   "@types/rimraf": 2.0.3
   "@typescript-eslint/eslint-plugin": 2.18.0_56a2b22b1fed3349af2facfa5b00b118
@@ -940,12 +939,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
-  /@types/mkdirp/0.5.2:
-    dependencies:
-      "@types/node": 13.5.1
-    dev: true
-    resolution:
-      integrity: sha512-U5icWpv7YnZYGsN4/cmh3WD2onMY0aJIiTE6+51TwJCttdHvtCYmkBNOobHlXwrJRL0nkH9jH4kD+1FAdMN4Tg==
   /@types/node/13.5.1:
     dev: true
     resolution:
@@ -5584,7 +5577,6 @@ packages:
     resolution:
       integrity: sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==
 specifiers:
-  "@types/mkdirp": ^0.5.2
   "@types/node": ^13.5.1
   "@types/rimraf": ^2.0.3
   "@typescript-eslint/eslint-plugin": ^2.18.0
