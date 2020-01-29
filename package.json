@@ -1,6 +1,6 @@
 {
 	"name": "@wessberg/filesaver",
-	"version": "1.0.9",
+	"version": "1.0.10",
 	"description": "A Promise-based class that can save/remove files to/from disk and make folders recursively.",
 	"scripts": {
 		"generate:scaffold": "scaffold all --yes",
