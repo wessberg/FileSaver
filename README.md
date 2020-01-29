@@ -40,6 +40,7 @@ into the `fs` module now. Use that instead.
 ## Table of Contents
 
 - [Description](#description)
+- [DISCLAIMER](#disclaimer)
 - [Table of Contents](#table-of-contents)
 - [Install](#install)
   - [npm](#npm)
