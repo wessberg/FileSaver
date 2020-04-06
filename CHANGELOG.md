@@ -1,3 +1,5 @@
+## [1.0.11](https://github.com/wessberg/filesaver/compare/v1.0.10...v1.0.11) (2020-04-06)
+
 ## [1.0.10](https://github.com/wessberg/filesaver/compare/v1.0.9...v1.0.10) (2020-01-29)
 
 ### Bug Fixes
