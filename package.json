@@ -64,7 +64,7 @@
 		"eslint-plugin-jsdoc": "^22.1.0",
 		"husky": "^4.2.3",
 		"np": "^5.2.1",
-		"pnpm": "^4.12.5",
+		"pnpm": "^7.33.4",
 		"prettier": "^2.0.4",
 		"pretty-quick": "^2.0.1",
 		"rollup": "^2.3.3",
